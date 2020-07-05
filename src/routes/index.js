@@ -1,16 +1,10 @@
 
 
-import Login from ''
+import Login from './Login/index'
 
 const routes = app => [
     {
-        path: '/sign',
-        title: '登录',
-        indexRoute: '/sign/login',
-        childRoutes: [
-
-        ]
+        path: '/login',
+        component: Login
     }
 ]
-
-// export default app => 
